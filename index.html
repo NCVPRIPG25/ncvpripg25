@@ -798,6 +798,7 @@ document.getElementById('selectedCandidates').innerText = getDaysLeft(new Date('
       <div class="col-12">
         <div class="section-title-header text-center">
           <h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">About NCVPRIPG 2025</h1>
+          <p class="blinking-date">The paper submission date is extended to May 5, 2025</p>
           <p class="wow fadeInDown" data-wow-delay="0.2s">
             <p align="justify" style="font-size: 16px;">
               The Tenth National Conference on Computer Vision, Pattern Recognition, Image Processing, and Graphics (NCVPRIPG 2025) will be held at the scenic Natonanal Institute of Technology (NIT)  Srinagar <a href="https://www.nitsri.ac.in" target="_blank">(NIT Srinagar)</a> campus at Srinagar, Kashmir from 16 to 18 July 2025.
@@ -871,6 +872,22 @@ Deep learning.
     </div>
   </div>
 </section>
+    <style>
+  .blinking-date {
+    color: red;
+    font-weight: bold;
+    font-size: 32px; /* Adjust size as necessary */
+    animation: blink 1s infinite;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  @keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+</style>
 <!-- About Section End -->
 
 <!-- Registration Button Section Start -->
