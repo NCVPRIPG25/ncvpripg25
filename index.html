@@ -769,6 +769,21 @@ document.getElementById('abstractSubmission').innerText = getDaysLeft(new Date('
 document.getElementById('selectedCandidates').innerText = getDaysLeft(new Date('June 30, 2024'));
 // Add more countdowns for other events as needed
 </script>
+<style>
+  .blinking {
+    color: red;
+    font-weight: bold;
+    animation: blink 1s infinite;
+  }
+
+  @keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+</style>
+
+<p><span class="blinking">The paper submission date is extended to May 5, 2025</span></p>
 
 <!-- About Section Start -->
 <section id="about" class="section-padding">
