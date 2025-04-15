@@ -506,7 +506,21 @@
             <p style="font-weight: bold;">Important Dates:</p>
             <!-- <ul> -->
               <li>Submissions Starts: March 15, 2025</li>
-              <li>Submission Ends: <s>April 15, 2025</s> May 5, 2025 </li>
+              <!-- <li>Submission Ends: <s>April 15, 2025</s> May 5, 2025 </li> -->
+        <style>
+  .blinking {
+    color: red;
+    animation: blink 1s infinite;
+  }
+
+  @keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+</style>
+
+<li>Submission Ends: <s>April 15, 2025</s> <span class="blinking">May 5, 2025</span></li>
               <li>Review Results: May 31, 2025</li>
               <li>Registration and Final Paper Submission: June 15, 2025</li>
             <!-- </ul> -->
