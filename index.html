@@ -773,6 +773,7 @@ document.getElementById('selectedCandidates').innerText = getDaysLeft(new Date('
   .blinking {
     color: red;
     font-weight: bold;
+    font-size: 27px;
     animation: blink 1s infinite;
   }
 
@@ -781,9 +782,14 @@ document.getElementById('selectedCandidates').innerText = getDaysLeft(new Date('
     50% { opacity: 0; }
     100% { opacity: 1; }
   }
+
+  .center {
+    text-align: center;
+  }
 </style>
 
-<p><span class="blinking">The paper submission date is extended to May 5, 2025</span></p>
+<p class="center"><span class="blinking">The paper submission date is extended to May 5, 2025</span></p>
+
 
 <!-- About Section Start -->
 <section id="about" class="section-padding">
