@@ -482,6 +482,18 @@
     }
   </style>
 </head>
+  <style>
+.blinking-date {
+  animation: blinker 1s linear infinite;
+  color: red;
+  font-style: italic;
+}
+
+@keyframes blinker {
+  50% { opacity: 0; }
+}
+</style>
+
 <body>
 
   <p class="centered-green">
