@@ -1,1 +1,31 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full Screen Image</title>
+    <style>
+        /* Make sure the body and html take up the full screen */
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
+        /* Style for the image to fill the entire screen */
+        .full-screen-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Ensures the image covers the entire area without distortion */
+        }
+    </style>
+</head>
+<body>
+
+<!-- Image element -->
+<img src="assets/img/committee/CFB.jpg" " alt="Full Screen Image" class="full-screen-image">
+
+</body>
+</html>
+
